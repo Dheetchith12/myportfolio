@@ -12,6 +12,11 @@
 body {
   font-family: "Roboto", serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: var(--dark-primary);
   padding: 20px;
