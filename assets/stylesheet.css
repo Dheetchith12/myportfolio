@@ -52,7 +52,8 @@ header button:hover {
   background-color: var(--secondary-color);
   color: #fff;
 }
-header .logo {
+header .logo > a {
+  text-decoration: none;
   color: var(--secondary-color);
   font-weight: 900;
   font-size: 25px;
